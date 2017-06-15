@@ -1,0 +1,545 @@
+body, h1, h2, h3, p, ul, ol, form, fieldset, figure {
+  margin: 0;
+  padding: 0; }
+
+div, figure, img, input, button {
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+ul, ol {
+  list-style: outside none none; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: -webkit-link; }
+
+.none, .xs-show {
+  display: none; }
+
+.clearfix:after {
+  content: ".";
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both; }
+
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 10px rgba(88, 167, 250, 0.4);
+  position: fixed;
+  top: 0;
+  z-index: 9999; }
+  #header .center {
+    max-width: 1263px;
+    margin: 0 auto;
+    height: 50px; }
+    #header .center .logo {
+      width: 30%;
+      height: 50px;
+      margin-left: 15px;
+      background: url(../images/logo.jpg) no-repeat left center;
+      text-indent: -9999px;
+      float: left; }
+    #header .center .header-nav {
+      width: 60%;
+      height: 50px;
+      line-height: 50px;
+      color: #777;
+      float: right;
+      padding-right: 15px; }
+      #header .center .header-nav li {
+        float: right;
+        width: 20%;
+        text-align: center; }
+        #header .center .header-nav li a {
+          font-size: 19.5px;
+          font-weight: bold;
+          color: #777;
+          display: block; }
+          #header .center .header-nav li a:hover {
+            background-color: #f3f3f3; }
+
+.section-one {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  /* height: 100%;*/
+  position: relative; }
+  .section-one .section-title {
+    width: 30%;
+    height: 60px;
+    color: #fefefe;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 4em;
+    margin: -10px 0 0 -15%;
+    text-align: center; }
+  .section-one .section-one-content {
+    width: 70%;
+    color: #fefefe;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    margin: 0 0 0 -35%;
+    text-align: center; }
+    .section-one .section-one-content .dayu-slogan {
+      margin: 20px auto; }
+    .section-one .section-one-content .section-one-contact {
+      margin-top: 50px; }
+      .section-one .section-one-content .section-one-contact a {
+        background-color: #ffffff;
+        padding: 10px 60px;
+        border-radius: 5px;
+        color: #333;
+        font-size: 19.5px;
+        font-weight: bold;
+        letter-spacing: 4; }
+        .section-one .section-one-content .section-one-contact a:hover {
+          padding: 15px 65px;
+          background-color: #f8f8f8; }
+
+.section-two {
+  max-width: 1263px;
+  /*height: 1150px;*/
+  margin: 0 auto 80px;
+  padding-top: 76px; }
+  .section-two .section-title {
+    color: #777;
+    font-size: 4em;
+    text-align: center;
+    margin: 50px 0 50px; }
+  .section-two .section-two-content:after {
+    height: 0;
+    line-height: 0;
+    content: '';
+    clear: both;
+    display: block; }
+  .section-two .section-two-content .dayu-server {
+    color: #777;
+    border: 1px solid #ccc;
+    display: block;
+    padding: 15px;
+    border-radius: 4px;
+    width: 32.4%;
+    margin: 15px 0.4%;
+    text-align: left;
+    float: left; }
+    .section-two .section-two-content .dayu-server img {
+      margin: 0 auto;
+      vertical-align: middle; }
+    .section-two .section-two-content .dayu-server .server-title {
+      font-size: 1.5em;
+      text-align: center; }
+    .section-two .section-two-content .dayu-server .service-detail {
+      text-align: center; }
+
+.section-three {
+  max-width: 1263px;
+  margin: 0 auto 80px;
+  padding-top: 76px; }
+  .section-three .section-title {
+    color: #777;
+    font-size: 4em;
+    text-align: center;
+    margin: 50px 0 50px; }
+  .section-three .section-three-content {
+    width: 100%;
+    text-align: center; }
+    .section-three .section-three-content .contact-left {
+      float: left;
+      width: 55%;
+      text-align: right; }
+      .section-three .section-three-content .contact-left .dayu-contact-item {
+        /*width: 30%;*/
+        height: 40px;
+        line-height: 40px;
+        margin: 15px auto;
+        text-align: left;
+        font-size: 23.4px; }
+        .section-three .section-three-content .contact-left .dayu-contact-item img {
+          width: 30px;
+          display: inline;
+          max-height: 1em; }
+        .section-three .section-three-content .contact-left .dayu-contact-item span {
+          color: #777;
+          height: 40px;
+          line-height: 40px; }
+        .section-three .section-three-content .contact-left .dayu-contact-item .contact-wechat {
+          cursor: pointer; }
+          .section-three .section-three-content .contact-left .dayu-contact-item .contact-wechat:hover {
+            color: #0086B3; }
+    .section-three .section-three-content .contact-right {
+      /*width: 50%;*/
+      float: left; }
+
+.no-found {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  margin: auto; }
+  .no-found .no-found-content h4 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .no-found .no-found-content a {
+    background-color: #409BFA;
+    padding: 5px 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 19.5px; }
+    .no-found .no-found-content a:hover {
+      padding: 8px 44px;
+      background-color: #248BF7; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-one .section-title {
+    width: 50%;
+    margin: -10px 0 0 -25%;
+    font-size: 3.8em; }
+  .section-one .section-one-content {
+    width: 100%;
+    margin: 0 0 0 -50%; }
+
+  .section-two .section-title {
+    font-size: 3.8em; }
+  .section-two .section-two-content .dayu-server .server-title {
+    font-size: 1.3em; }
+  .section-two .section-two-content .dayu-server .service-detail {
+    font-size: 19.5px; }
+
+  .section-three .section-title {
+    font-size: 3.8em; }
+  .section-three .contact-left {
+    width: 60%; }
+    .section-three .contact-left .section-three-content .dayu-contact-item {
+      width: 45%; }
+      .section-three .contact-left .section-three-content .dayu-contact-item span {
+        font-size: 19.5px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-one .section-title {
+    width: 60%;
+    margin: -10px 0 0 -30%;
+    font-size: 3.5em; }
+  .section-one .section-one-content {
+    width: 100%;
+    margin: 0 0 0 -50%;
+    top: 37%; }
+
+  .section-two .section-title {
+    font-size: 3.5em; }
+  .section-two .section-two-content .dayu-server {
+    width: 49.2%; }
+    .section-two .section-two-content .dayu-server .server-title {
+      font-size: 1.2em; }
+
+  .section-three .section-title {
+    font-size: 3.5em; }
+  .section-three .contact-left {
+    width: 60%; }
+    .section-three .contact-left .section-three-content .dayu-contact-item {
+      width: 50%; }
+      .section-three .contact-left .section-three-content .dayu-contact-item span {
+        font-size: 19.5px; } }
+@media (min-width: 480px) and (max-width: 767px) {
+  #header {
+    height: 45px; }
+    #header .center {
+      height: 45px; }
+      #header .center .logo {
+        height: 45px;
+        display: none; }
+      #header .center .header-nav {
+        width: 100%;
+        height: 45px;
+        line-height: 45px; }
+        #header .center .header-nav li {
+          width: 33%; }
+          #header .center .header-nav li a {
+            font-size: 16.9px; }
+
+  .section-one {
+    padding: 45px 0 0 0;
+    background-image: url("../images/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+    .section-one .xs-hidden {
+      display: none; }
+    .section-one .section-title {
+      width: 70%;
+      margin: -10px 0 0 -35%;
+      font-size: 3em; }
+    .section-one .section-one-content {
+      width: 94%;
+      margin: 0 0 0 -48%; }
+      .section-one .section-one-content .dayu-slogan h2 {
+        font-size: 26px; }
+    .section-one .xs-hidden {
+      display: none; }
+    .section-one .xs-show {
+      display: block; }
+
+  .section-two {
+    padding-top: 40px; }
+    .section-two .section-title {
+      font-size: 3em; }
+    .section-two .section-two-content .dayu-server {
+      width: 99%; }
+      .section-two .section-two-content .dayu-server .server-title {
+        font-size: 1.1em; }
+
+  .section-three {
+    padding-top: 40px; }
+    .section-three .section-title {
+      font-size: 3em; }
+    .section-three .section-three-content .contact-left {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .section-three .section-three-content .contact-left .dayu-contact-item span {
+        font-size: 19.5px; }
+    .section-three .section-three-content .contact-right {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .section-three .section-three-content .contact-right img {
+        margin: 0 auto; } }
+@media (max-width: 479px) {
+  #header {
+    height: 45px; }
+    #header .center {
+      height: 45px; }
+      #header .center .logo {
+        height: 45px;
+        display: none;
+        margin-left: 0; }
+      #header .center .header-nav {
+        width: 100%;
+        height: 45px;
+        line-height: 45px; }
+        #header .center .header-nav li {
+          width: 33%; }
+          #header .center .header-nav li a {
+            font-size: 16.9px; }
+
+  .section-one {
+    padding: 45px 0 0 0;
+    background-image: url("../images/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; }
+    .section-one .xs-hidden {
+      display: none; }
+    .section-one .section-title {
+      width: 80%;
+      margin: -10px 0 0 -40%;
+      font-size: 2.5em; }
+    .section-one .section-one-content {
+      width: 94%;
+      margin: 0 0 0 -48%; }
+      .section-one .section-one-content .dayu-slogan h2 {
+        font-size: 23.4px; }
+
+  .section-two {
+    padding-top: 40px; }
+    .section-two .section-title {
+      font-size: 2.5em; }
+    .section-two .section-two-content .dayu-server {
+      width: 99%; }
+      .section-two .section-two-content .dayu-server .server-title {
+        font-size: 1em; }
+
+  .section-three {
+    padding-top: 40px; }
+    .section-three .section-title {
+      font-size: 2.5em; }
+    .section-three .section-three-content .contact-left {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .section-three .section-three-content .contact-left .dayu-contact-item {
+        width: 95%;
+        margin: 5px auto; }
+        .section-three .section-three-content .contact-left .dayu-contact-item span {
+          font-size: 16px; }
+    .section-three .section-three-content .contact-right {
+      float: none;
+      width: 100%;
+      text-align: center; }
+      .section-three .section-three-content .contact-right img {
+        margin: 0 auto; }
+
+  .xs-hidden {
+    display: none; }
+
+  .xs-show {
+    display: block; } }
+/*
+@media only screen and (max-width: 310px) {
+  .header-logo{
+    display: none;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .header-logo{
+    display: none;
+  }
+}
+@media only screen and (max-width: 780px) {
+  #header{
+    padding: 0 20px;
+    .header-logo{
+     width:40px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .section-two{
+    .section-two-content{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      /!*padding: 0 50px;*!/
+      .dayu-servers{
+        width:1100px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        &:after{
+          content: '';
+          height: 0;
+          line-height: 0;
+          clear: both;
+          display:block;
+        }
+      }
+      .dayu-server{
+        width: 25%;
+        text-align: center;
+        float: left;
+        border: solid 1px $font-color-gray999;
+        padding: 20px;
+        margin: 15px 15px;
+        color: $font-color-gray333;
+        &:hover{
+          background-color: $bg-color-gray3;
+        }
+        .server-title{
+          margin-top: 25px;
+          margin-bottom: 20px;
+          font-size: $font-size-md;
+        }
+        .server-content{
+          font-size: $font-size-xs;
+        }
+      }
+    }
+  }
+  .section-one-content{
+    top: 40%;
+  }
+  .section-two-content,.section-three-content{
+    top: 30%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .section-two{
+    height: 160%;
+    .section-two-content{
+      width: 100%;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      /!*padding: 0 50px;*!/
+      .dayu-servers{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .dayu-server{
+        text-align: center;
+        border: solid 1px $font-color-gray999;
+        padding: 20px;
+        margin: 0 auto;
+        color: $font-color-gray333;
+        &:hover{
+          background-color: $bg-color-gray3;
+        }
+        .server-title{
+          margin-top: 25px;
+          margin-bottom: 20px;
+          font-size: $font-size-md;
+        }
+        .server-content{
+          font-size: $font-size-xs;
+        }
+      }
+    }
+  }
+
+}
+*/
+/*
+.section{
+  width: 100%;
+  position: relative;
+  height: 100%;
+  .section-title{
+    color: $font-color-black;
+    text-align: center;
+    padding-top: 50px;
+  }
+}*/
+/*#header{
+  /!*width: 100%;*!/
+  height: 70px;
+  line-height: 70px;
+  //background-color: $bg-color-blue;
+  padding: 0 50px;
+  background:transparent;
+  background-color:rgba(88,167,250,0.4);
+  .header-logo{
+    float: left;
+    background: url(../images/logo.ico) no-repeat left center;
+    text-indent: -9999px;
+  }
+  .header-nav{
+    color: #eee;
+    li{
+      text-align: center;
+      float: left;
+      a {
+        color: $font-color-white;
+       // display: block;
+        font-weight: bold;
+        font-size: $font-size-md;
+      }
+    }
+  }
+}*/
+#footer {
+  padding: 30px;
+  background-color: #404040;
+  font-size: 16.9px;
+  color: #fefefe; }
+  #footer .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
